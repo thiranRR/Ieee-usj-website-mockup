@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+@theme {
+  --color-ieee-blue: #086b9e;
+  --color-ieee-dark: #06537a;
+  --color-ieee-light: #0a84c2;
+}
+
+:root {
+  --background: #fdfdfd;
+  --foreground: #000000;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-montserrat), Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
+}
